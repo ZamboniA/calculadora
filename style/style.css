@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    font-size: 30px;
+}
+
+
+
+body, html {
+    height: 100%;
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace !important;
+}
+
+.alinhamento{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borda {
+    background-color: lightblue;
+    border: 2px solid black;
+    box-shadow: 0 4px 1px black;
+    content: 5px;
+    border-radius: 15px;
+    height: 415px;
+    width: 365px;
+}
+
+
+div p {
+    border-bottom: 2px solid black;
+    box-shadow: 0 4px 1px black;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.display{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 1px black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0px;
+    height: 60px;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.bottom{
+    margin-top: 3px;
+    border-radius: 10px;
+    height: 300px;
+    display: block;
+}
+
+.botoes-operadores{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+}
+
+
+.botoes-operadores button {
+    width: 90px;
+    margin: 2.5px 3px;
+    background-color: #0c375c;
+}
+
+
+.botoes-numeros{
+    border-top: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    height: 240px;
+}
+
+
+.botoes-numeros button{
+    width: 90px;
+    margin: auto;
+}
+
+
+button{
+    box-shadow: 0 4px 1px #142c41;
+    background: #276ba7;
+    border-radius: 10px;
+    height: 50px;
+    line-height: 48px;
+    margin: 9px;
+    width: 75px;
+}
+
+
+#igual{
+    background-color: #0c375c;
+    height: 170px;
+}
